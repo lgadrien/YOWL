@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 
-
 function LogInForm () {
 
   function handleCallbackResponse (response) {
@@ -21,9 +20,9 @@ function LogInForm () {
   }, []);
 
   return (
-    <div className="flex items-center justify-center h-screen mt-auto">
+    <div className="flex flex-col items-center justify-center h-screen mt-auto">
       <div id="signInDiv"></div>
-      <div className="flex items-center">En vous inscrivant vous acceptez nos<a href="/CGU" className="text-blue-500 font-bold"> Conditions Générales d'Utilisations</a></div>
+      <div className="flex items-center mt-4">En vous inscrivant vous acceptez nos<a href="/CGU" className="text-blue-500 font-bold ml-1"> Conditions Générales d'Utilisations</a></div>
     </div>
   );
 }

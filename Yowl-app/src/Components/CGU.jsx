@@ -1,7 +1,7 @@
 
 const CGU = () => {
     return ( 
-        <div><p>AUCUNE CGU DISPONIBLE</p></div>
+        <div className="flex items-center justify-center h-screen"><p>AUCUNE CGU DISPONIBLE</p></div>
     );
 }
 
