@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Navbar = () => {
   return (
@@ -9,6 +8,7 @@ const Navbar = () => {
           <a href="/" className="text-white hover:text-gray-300">Home</a>
           <a href="/Communauté" className="text-white hover:text-gray-300">Communauté</a>
           <a href="/Login" className="text-white hover:text-gray-300">Se connecter</a>
+          <a href="/Parametres" className="text-white hover:text-gray-300">Paramètres</a>
         </div>
       </div>
     </nav>
